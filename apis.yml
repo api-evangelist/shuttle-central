@@ -1,7 +1,13 @@
 aid: shuttle-central
 name: Shuttle Central
-description: Shuttle Central is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Shuttle Central (shuttlecentral.com) is a ground transportation booking
+  platform for airport and point-to-point shuttle transfers across Mexico, the Caribbean,
+  the United States, and Latin America, covering 100+ destinations including Cancun,
+  Punta Cana, Nassau, Los Cabos, Mexico City, Puerto Vallarta, Montego Bay, and Miami.
+  Travelers book confirmed transfers online with secure payment, instant confirmation,
+  and 24/7 support, and a separate transportation-provider program (shuttlecentralinc.com)
+  lets ground operators sell transfers through the platform. The company is backed by
+  500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/shuttle-central/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://shuttlecentral.com/og-default.jpg
 tags:
 - Company
+- Travel
+- Transportation
+- Ground Transportation
+- Airport Shuttle
+- Booking
+- Hospitality
+- Mexico
+- Caribbean
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://shuttlecentral.com
+- type: Blog
+  url: https://shuttlecentral.com/blog
+- type: Support
+  url: https://shuttlecentral.com/customer-support
+- type: TermsOfService
+  url: https://shuttlecentral.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://shuttlecentral.com/aviso-de-privacidad
+- type: Login
+  url: https://ride.shuttlecentral.com/login
+- type: Twitter
+  url: https://twitter.com/ShuttleCentral
+- type: LinkedIn
+  url: https://www.linkedin.com/company/shuttlecentral/
+- type: Facebook
+  url: https://www.facebook.com/Shuttle-Central-483437205761142/
+- type: Instagram
+  url: https://www.instagram.com/shuttlecentral/
+- type: DomainSecurity
+  url: security/shuttle-central-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
